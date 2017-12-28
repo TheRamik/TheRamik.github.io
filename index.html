@@ -4,35 +4,21 @@
 <head>
 	<title>Ricky Tham - Learning for Tomorrow</title>
 	<link rel="stylesheet" href="styles.css">
-	<script src="scripts/main.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
-<div id = "home" class="tabcontent">
-	<h3>Home</h3>
-	<p>This will go to the Home page. </p>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active" href="index.html"><i class="fa fa-home"></i>Home</a>
+  <a href="#aboutMe">About Me</a>
+  <a href="#projects">Projects</a>
+  <a href="#hobbies">Hobbies</a>
+  <a href="#resume">Resume</a>
+  <a href="javascript:void(0);" class="icon" onclick="changeNavi()">&#9776;</a>
 </div>
 
-<div id = "aboutMe" class="tabcontent">
-	<h3>About Me</h3>
-	<p>This Tab will go to the about me</p>
-</div>
-
-<div id = "projects" class="tabcontent">
-	<h3>Projects</h3>
-	<p>This tab will be about my projects</p>
-</div>
-
-<div id = "hobbies" class="tabcontent">
-	<h3>Hobbies</h3>
-	<p>This tab will be about my hobbies</p>
-</div>
-
-<button class="tablink" onclick="openCity('home','this','red')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openCity('aboutMe','this','green')">About Me</button>
-<button class="tablink" onclick="openCity('projects','this','blue')">Projects</button>
-<button class="tablink" onclick="openCity('hobbies','this','orange')">Hobbies</button>
 <footer>
 	<div class="footer-social">
 		<div class="footer-social-inside">
@@ -46,6 +32,7 @@
 	</div>
 </footer>
 
+<script src="scripts/main.js"></script>
 
 </body>
 </html>
