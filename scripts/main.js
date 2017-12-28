@@ -1,6 +1,3 @@
-var myHeading = document.query.querySelector('h1');
-myHeading.textContent = 'Hello world!';
-
 function openCity(cityName,elmnt,color) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -17,3 +14,6 @@ function openCity(cityName,elmnt,color) {
 }
 
 document.getElementById("defaultOpen").click();
+
+var myHeading = document.query.querySelector('h1');
+myHeading.textContent = 'Hello world!';
