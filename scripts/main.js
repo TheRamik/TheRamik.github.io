@@ -15,3 +15,5 @@ function openCity(cityName,elmnt,color) {
     elmnt.style.backgroundColor = color;
 
 }
+
+document.getElementById("defaultOpen").click();
