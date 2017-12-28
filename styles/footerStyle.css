@@ -1,0 +1,19 @@
+.footer-social {
+	background-color: #333;
+	overflow: hidden;
+	padding: 14px 16px;
+}
+
+.footer-social-inside a {
+	float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-social-inside a:hover {
+    color: gold;
+}
