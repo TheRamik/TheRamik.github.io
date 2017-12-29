@@ -4,7 +4,8 @@
 }
 
 .topnav a {
-    float: left;
+    float: right;
+    right: 0;
     display: block;
     color: white;
     text-align: center;
