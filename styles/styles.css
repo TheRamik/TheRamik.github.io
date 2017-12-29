@@ -3,6 +3,9 @@ body {
 
 }
 
+.myStyles {display:none}
+.demo {cursor:pointer}
+
 .introBlock {
 	overflow: hidden;
 }
