@@ -1,25 +1,11 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
-import React, { Component } from "react";
+import React from "react";
+import Headroom from "react-headroom"
 import NavLink from "./nav-link";
-import { FaIdCard, FaLaptopCode, FaGamepad, FaFileAlt } from "react-icons/fa";
-
-window.onscroll = function() {scrollFunction()};
-
-  // When the user scrolls down 20px from the top of the document, slide down the navbar
-  // When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-50px";
-    }
-  }
+import { FaPollH, FaIdCard, FaLaptopCode, FaGamepad, FaFileAlt } from "react-icons/fa";
 
 const Header = ({ siteTitle }) => (
-
-
   <header
     style={{
       background: `#333`,
@@ -44,13 +30,24 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <div id="navbar">
+      <Headroom
+        pinStart={90}
+        style={{
+          webkitTransition: 'all .5s ease-in-out',
+          mozTransition: 'all .5s ease-in-out',
+          oTransition: 'all .5s ease-in-out',
+          transition: 'all .5s ease-in-out',
+          background: `#333`,
+          marginBottom: `1.45rem`,
+          textAlign: `center`
+        }}
+      >
         <NavLink to="/about-me/"><FaIdCard /> ABOUT ME</NavLink>
-        <NavLink to="/blog/">< /> ABOUT ME</NavLink>
+        <NavLink to="/blog/"><FaPollH /> BLOG</NavLink>
         <NavLink to="/projects/"><FaLaptopCode /> PROJECTS</NavLink>
   		  <NavLink to="/hobbies/"><FaGamepad /> HOBBIES</NavLink>
   		  <NavLink to="/resume/"><FaFileAlt /> RESUME</NavLink>
-        </div>
+      </Headroom>
     </div>
   </header>
 )

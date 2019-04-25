@@ -2,7 +2,7 @@ import React from "react";
 import SocialMediaLink from "./social-media-link";
 import { FaLinkedinIn, FaGithubAlt} from "react-icons/fa";
 
-const Footer = () => (
+const Footer = ({ siteAuthor }) => (
     <footer
       style={{
         textAlign: `center`
@@ -31,11 +31,11 @@ const Footer = () => (
           marginBottom: `1.45rem`,
         }}
       >
-        © {new Date().getFullYear()}, Built with
+        Built with
           {` `}
         <a href="https://www.gatsbyjs.org" 
           title="GatsbyJS" target="_blank" rel="noopener noreferrer">Gatsby</a>
-        <p>Created by Ricky Tham</p>
+        <p>Created by {siteAuthor} © {new Date().getFullYear()} </p>
       </div>
     </footer>
 )
