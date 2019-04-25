@@ -22,6 +22,7 @@ const BlogPage = () => {
 
     return (
       <Layout>
+        <SEO title="Blog" />
         <h1>Blog</h1>
         <ol>
           {data.allMarkdownRemark.edges.map((edge) => {
@@ -33,6 +34,7 @@ const BlogPage = () => {
             )
           })}
         </ol>
+        <Link to="/page-2/">Go to page 2</Link>
       </Layout>
     )
 }
