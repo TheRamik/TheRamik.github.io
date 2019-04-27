@@ -12,6 +12,24 @@ Kick off your project with this default boilerplate. This starter ships with the
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
+## Installs
+
+1.  **react-headroom**
+
+    Install react-headroom to allow the navigation sticking when scrolling feature to occur.
+
+    ```
+    npm install react-headroom
+    ```
+
+2.  **gatsby-transform-remark**
+
+    Install remark for reading markdown text files and tranforming them. Used for the blog posts
+
+    ```
+    npm install gatsby-transform-remark
+    ```
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
