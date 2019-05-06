@@ -1,11 +1,11 @@
 ---
-title: "A First Gatsby Post"
-date: "2018-01-04"
+title: "Canada Trip 2015"
+date: "2015-09-13"
 ---
 
-I just started to learn GatsbyJS. I created this web page with GatsbyJS
+Post of the amazing scenes I saw when I at Canada
 
-## Topics Covered
+## 
 
 1. Gatsby
 2. GraphQL
@@ -27,6 +27,6 @@ Gatsby uses GraphQL to grab these information. The current blog posts are retrie
 
 A Slug is the part of a URL which identifies a particular page on a website in a easy to read form. 
 
-The blogs created here are all using slugs to form the URL for the blog posts. A very cool plugin that Gatsby has!
+The blogs created here are all using slugs to form the URL for the blog posts. A very cool tool that Gatsby has!
 
 ![GatsbyIcon](./../../images/gatsby-icon.png)
