@@ -30,12 +30,20 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     npm install gatsby-transform-remark
     ```
 
-2.  **gatsby-plugin-sharp, gatsby-remark-images, gatsby-remark-relative-images**
+3.  **gatsby-plugin-sharp, gatsby-remark-images, gatsby-remark-relative-images**
 
     Install these to be able to use images from the relative path.
 
     ```
     npm install gatsby-plugin-sharp gatsby-remark-images gatsby-remark-relative-images
+    ```
+
+4.  **gatsby-plugin-sass, node-sass**
+
+    Install these to use scss files
+
+    ```
+    npm install gatsby-plugin-sass node-sass
     ```
 
 ## 🚀 Quick start
