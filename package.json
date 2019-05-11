@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^2.3.16",
+    "gatsby-background-image": "^0.5.6",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-manifest": "^2.0.28",
     "gatsby-plugin-offline": "^2.0.25",
@@ -17,6 +18,7 @@
     "gatsby-source-filesystem": "^2.0.32",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.17",
+    "intersection-observer": "^0.7.0",
     "joi": "^14.3.1",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
