@@ -33,6 +33,7 @@ const BlogPage = () => {
       <Layout>
         <SEO title="Blog" />
         <h1>Blog</h1>
+        <hr></hr>
         <ol className={blogStyles.posts}>
           {data.allMarkdownRemark.edges.map((edge) => {
             return (

@@ -7,8 +7,12 @@ import SEO from "../components/seo"
 const AboutMe = () => (
   <Layout>
     <SEO title="About Me" />
-    <h1>Hi from the About Me Page</h1>
-    <p>Welcome to About me</p>
+    <h1>About Me</h1>
+    <hr></hr>
+    <p>A recent graduate (2018) from University of California, Irvine (UCI) with a degree in Computer Science. 
+      I am currently a Systems Engineer in the Orange County area at a company called Unisys.
+
+    </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
