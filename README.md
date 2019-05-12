@@ -46,6 +46,13 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     npm install gatsby-plugin-sass node-sass
     ```
 
+5. **react-pdf**
+
+    Install this plugin to use pdfs
+    ```
+    npm install react-pdf
+    ```
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
