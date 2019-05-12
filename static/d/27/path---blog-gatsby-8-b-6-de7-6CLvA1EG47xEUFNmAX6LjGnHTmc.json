@@ -1,0 +1,1 @@
+{"data":{"markdownRemark":{"frontmatter":{"title":"The First Gatsby Post","date":"2019-04-04"},"html":"<p>I just started to learn GatsbyJS</p>\n<p><img src=\"./uploads/disney-funnelcake.jpg\" alt=\"Grass\"></p>\n<h2>Topics Covered</h2>\n<ol>\n<li>Gatsby</li>\n<li>GraphQL</li>\n</ol>"}},"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"gatsby"}}
