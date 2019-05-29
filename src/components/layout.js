@@ -7,11 +7,13 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
+import centerStyles from './center.module.scss'
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -39,6 +41,11 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
         </div>
+        <br/><br/>
+        <div className={centerStyles.center}>
+          <Link to="/">Go back to the homepage</Link>
+        </div>
+        <br/><br/>
         <Footer siteAuthor={data.site.siteMetadata.author}/>
       </>
     )}

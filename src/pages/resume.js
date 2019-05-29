@@ -1,10 +1,9 @@
 import React, { Component } from "react"
 import { Document, Page, pdfjs } from 'react-pdf'
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import centerStyles from './center.module.scss'
+import centerStyles from '../components/center.module.scss'
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -41,9 +40,6 @@ class Resume extends Component {
         <p className={centerStyles.center}>
           {pageNumber} / {numPages} 
         </p>
-        <div className={centerStyles.center}>
-          <Link to="/">Go back to the homepage</Link>
-        </div>
       </Layout>
     );
   }

@@ -1,9 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import centerStyles from './center.module.scss'
 
 const Hobbies = () => (
   <Layout>
@@ -12,9 +10,6 @@ const Hobbies = () => (
     <hr></hr>
     <p>Template for Hobbies.  
     </p>
-    <div className={centerStyles.center}>
-      <Link to="/">Go back to the homepage</Link>
-    </div>
   </Layout>
 )
 
