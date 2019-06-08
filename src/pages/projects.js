@@ -8,8 +8,8 @@ const Projects = () => (
     <SEO title="Projects" />
     <h1>Projects</h1>
     <hr></hr>
-    <p>Template for projects page
-    </p>
+    <p>Check out my Github projects <a href="https://github.com/TheRamik/">here</a>
+    </p> 
   </Layout>
 )
 
