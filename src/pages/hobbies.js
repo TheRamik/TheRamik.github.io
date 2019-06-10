@@ -9,12 +9,16 @@ const Hobbies = () => (
     <SEO title="Hobbies" />
     <h1>Hobbies</h1>
     <hr></hr>
-    <p>Template for Hobbies.  
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <Video
-        videoSrcURL="https://www.youtube.com/embed/YCPDVVLUw-4"
+        videoSrcURL="https://www.youtube.com/embed/YCPDVVLUw-4?rel=0&autoplay=1"
         videoTitle="Official Music Video on YouTube"
       />
-    </p>
   </Layout>
 )
 

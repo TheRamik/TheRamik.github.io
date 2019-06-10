@@ -1,8 +1,13 @@
 import React from "react"
+import videoStyles from './center.module.scss'
 
+const fullScreenStyle = {
+  width: '100%',
+  height: '100%'
+};
 
 const Video = ({ videoSrcURL, videoTitle, ...props }) => (
-    <div className="video">
+    <div className={videoStyles.videoContainer}>
       <iframe
         src={videoSrcURL}
         title={videoTitle}
@@ -11,6 +16,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
         webkitallowfullscreen="true"
         mozallowfullscreen="true"
         allowFullScreen
+        style={fullScreenStyle}
       />
     </div>
   )
