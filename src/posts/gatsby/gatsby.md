@@ -1,9 +1,10 @@
 ---
-title: "A First Gatsby Post"
+title: "Creating the Great Gatsby Project"
 date: "2019-04-04"
 ---
 
-I just started to learn GatsbyJS. I created this web page with GatsbyJS
+I just started to learn GatsbyJS. I created this web page with GatsbyJS.
+This is the Great Gatsby Project
 
 ## Topics Covered
 
